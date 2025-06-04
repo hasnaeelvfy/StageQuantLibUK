@@ -1,0 +1,17 @@
+[
+    {
+        "Projection Date": "2024-01-07",
+        "Clean Price Projected": 98.928946,
+        "Modified Duration Projected": 0.641134
+    },
+    {
+        "Projection Date": "2024-04-06",
+        "Clean Price Projected": 99.326633,
+        "Modified Duration Projected": 0.405059
+    },
+    {
+        "Projection Date": "2024-07-05",
+        "Clean Price Projected": 99.72058,
+        "Modified Duration Projected": 0.165706
+    }
+]

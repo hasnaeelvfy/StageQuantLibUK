@@ -1,0 +1,847 @@
+[
+    {
+        "description": "2¾% Treasury Gilt 2024",
+        "isin": "GB00BHBFH458",
+        "coupon": 2.75,
+        "maturity_date": "2024-09-07",
+        "issue_date": "2014-03-12",
+        "coupon_schedule": [
+            "03-07",
+            "09-07"
+        ],
+        "next_coupon_date": "2024-08-29",
+        "amount": "35806.004"
+    },
+    {
+        "description": "0¼% Treasury Gilt 2025",
+        "isin": "GB00BLPK7110",
+        "coupon": 0.25,
+        "maturity_date": "2025-01-31",
+        "issue_date": "2021-07-02",
+        "coupon_schedule": [
+            "01-31",
+            "07-31"
+        ],
+        "next_coupon_date": "2024-07-22",
+        "amount": "36531.653000000006"
+    },
+    {
+        "description": "5% Treasury Stock 2025",
+        "isin": "GB0030880693",
+        "coupon": 5.0,
+        "maturity_date": "2025-03-07",
+        "issue_date": "2001-09-27",
+        "coupon_schedule": [
+            "03-07",
+            "09-07"
+        ],
+        "next_coupon_date": "2024-08-29",
+        "amount": "37338.515"
+    },
+    {
+        "description": "0 5/8% Treasury Gilt 2025",
+        "isin": "GB00BK5CVX03",
+        "coupon": 0.625,
+        "maturity_date": "2025-06-07",
+        "issue_date": "2019-07-03",
+        "coupon_schedule": [
+            "06-07",
+            "12-07"
+        ],
+        "next_coupon_date": "2024-11-28",
+        "amount": "44622.873"
+    },
+    {
+        "description": "2% Treasury Gilt 2025",
+        "isin": "GB00BTHH2R79",
+        "coupon": 2.0,
+        "maturity_date": "2025-09-07",
+        "issue_date": "2015-03-20",
+        "coupon_schedule": [
+            "03-07",
+            "09-07"
+        ],
+        "next_coupon_date": "2024-08-29",
+        "amount": "39934.001000000004"
+    },
+    {
+        "description": "3½% Treasury Gilt 2025",
+        "isin": "GB00BPCJD880",
+        "coupon": 3.5,
+        "maturity_date": "2025-10-22",
+        "issue_date": "2023-01-18",
+        "coupon_schedule": [
+            "04-22",
+            "10-22"
+        ],
+        "next_coupon_date": "2024-10-11",
+        "amount": "35651.346"
+    },
+    {
+        "description": "0 1/8% Treasury Gilt 2026",
+        "isin": "GB00BL68HJ26",
+        "coupon": 0.125,
+        "maturity_date": "2026-01-30",
+        "issue_date": "2020-06-03",
+        "coupon_schedule": [
+            "01-30",
+            "07-30"
+        ],
+        "next_coupon_date": "2024-07-19",
+        "amount": "35315.698"
+    },
+    {
+        "description": "1½% Treasury Gilt 2026",
+        "isin": "GB00BYZW3G56",
+        "coupon": 1.5,
+        "maturity_date": "2026-07-22",
+        "issue_date": "2016-02-18",
+        "coupon_schedule": [
+            "01-22",
+            "07-22"
+        ],
+        "next_coupon_date": "2024-07-11",
+        "amount": "43650.738"
+    },
+    {
+        "description": "0 3/8% Treasury Gilt 2026",
+        "isin": "GB00BNNGP668",
+        "coupon": 0.375,
+        "maturity_date": "2026-10-22",
+        "issue_date": "2021-03-03",
+        "coupon_schedule": [
+            "04-22",
+            "10-22"
+        ],
+        "next_coupon_date": "2024-10-11",
+        "amount": "32889.598000000005"
+    },
+    {
+        "description": "4 1/8% Treasury Gilt 2027",
+        "isin": "GB00BL6C7720",
+        "coupon": 4.125,
+        "maturity_date": "2027-01-29",
+        "issue_date": "2022-10-13",
+        "coupon_schedule": [
+            "01-29",
+            "07-29"
+        ],
+        "next_coupon_date": "2024-07-18",
+        "amount": "32274.061"
+    },
+    {
+        "description": "3¾% Treasury Gilt 2027",
+        "isin": "GB00BPSNB460",
+        "coupon": 3.75,
+        "maturity_date": "2027-03-07",
+        "issue_date": "2024-01-11",
+        "coupon_schedule": [
+            "03-07",
+            "09-07"
+        ],
+        "next_coupon_date": "2024-08-29",
+        "amount": "23687.494000000002"
+    },
+    {
+        "description": "1¼% Treasury Gilt 2027",
+        "isin": "GB00BDRHNP05",
+        "coupon": 1.25,
+        "maturity_date": "2027-07-22",
+        "issue_date": "2017-03-15",
+        "coupon_schedule": [
+            "01-22",
+            "07-22"
+        ],
+        "next_coupon_date": "2024-07-11",
+        "amount": "40986.822"
+    },
+    {
+        "description": "4¼% Treasury Gilt 2027",
+        "isin": "GB00B16NNR78",
+        "coupon": 4.25,
+        "maturity_date": "2027-12-07",
+        "issue_date": "2006-09-06",
+        "coupon_schedule": [
+            "06-07",
+            "12-07"
+        ],
+        "next_coupon_date": "2024-11-28",
+        "amount": "33002.823"
+    },
+    {
+        "description": "0 1/8% Treasury Gilt 2028",
+        "isin": "GB00BMBL1G81",
+        "coupon": 0.125,
+        "maturity_date": "2028-01-31",
+        "issue_date": "2020-06-12",
+        "coupon_schedule": [
+            "01-31",
+            "07-31"
+        ],
+        "next_coupon_date": "2024-07-22",
+        "amount": "31032.277000000002"
+    },
+    {
+        "description": "4½% Treasury Gilt 2028",
+        "isin": "GB00BMF9LG83",
+        "coupon": 4.5,
+        "maturity_date": "2028-06-07",
+        "issue_date": "2023-06-21",
+        "coupon_schedule": [
+            "06-07",
+            "12-07"
+        ],
+        "next_coupon_date": "2024-11-28",
+        "amount": "34409.988"
+    },
+    {
+        "description": "1 5/8% Treasury Gilt 2028",
+        "isin": "GB00BFX0ZL78",
+        "coupon": 1.625,
+        "maturity_date": "2028-10-22",
+        "issue_date": "2018-03-16",
+        "coupon_schedule": [
+            "04-22",
+            "10-22"
+        ],
+        "next_coupon_date": "2024-10-11",
+        "amount": "37855.345"
+    },
+    {
+        "description": "6% Treasury Stock 2028",
+        "isin": "GB0002404191",
+        "coupon": 6.0,
+        "maturity_date": "2028-12-07",
+        "issue_date": "1998-01-29",
+        "coupon_schedule": [
+            "06-07",
+            "12-07"
+        ],
+        "next_coupon_date": "2024-11-28",
+        "amount": "20255.554559819997"
+    },
+    {
+        "description": "0½% Treasury Gilt 2029",
+        "isin": "GB00BLPK7227",
+        "coupon": 0.5,
+        "maturity_date": "2029-01-31",
+        "issue_date": "2021-09-02",
+        "coupon_schedule": [
+            "01-31",
+            "07-31"
+        ],
+        "next_coupon_date": "2024-07-22",
+        "amount": "28919.495"
+    },
+    {
+        "description": "4 1/8% Treasury Gilt 2029",
+        "isin": "GB00BQC82B83",
+        "coupon": 4.125,
+        "maturity_date": "2029-07-22",
+        "issue_date": "2024-05-01",
+        "coupon_schedule": [
+            "01-22",
+            "07-22"
+        ],
+        "next_coupon_date": "2024-07-11",
+        "amount": "13567.748"
+    },
+    {
+        "description": "0 7/8% Treasury Gilt 2029",
+        "isin": "GB00BJMHB534",
+        "coupon": 0.875,
+        "maturity_date": "2029-10-22",
+        "issue_date": "2019-06-19",
+        "coupon_schedule": [
+            "04-22",
+            "10-22"
+        ],
+        "next_coupon_date": "2024-10-11",
+        "amount": "43620.059"
+    },
+    {
+        "description": "0 3/8% Treasury Gilt 2030",
+        "isin": "GB00BL68HH02",
+        "coupon": 0.375,
+        "maturity_date": "2030-10-22",
+        "issue_date": "2020-05-13",
+        "coupon_schedule": [
+            "04-22",
+            "10-22"
+        ],
+        "next_coupon_date": "2024-10-11",
+        "amount": "38903.747"
+    },
+    {
+        "description": "4¾% Treasury Gilt 2030",
+        "isin": "GB00B24FF097",
+        "coupon": 4.75,
+        "maturity_date": "2030-12-07",
+        "issue_date": "2007-10-03",
+        "coupon_schedule": [
+            "06-07",
+            "12-07"
+        ],
+        "next_coupon_date": "2024-11-28",
+        "amount": "42819.38057"
+    },
+    {
+        "description": "0¼% Treasury Gilt 2031",
+        "isin": "GB00BMGR2809",
+        "coupon": 0.25,
+        "maturity_date": "2031-07-31",
+        "issue_date": "2020-11-13",
+        "coupon_schedule": [
+            "01-31",
+            "07-31"
+        ],
+        "next_coupon_date": "2024-07-22",
+        "amount": "40635.911"
+    },
+    {
+        "description": "4% Treasury Gilt 2031",
+        "isin": "GB00BPSNBF73",
+        "coupon": 4.0,
+        "maturity_date": "2031-10-22",
+        "issue_date": "2024-02-29",
+        "coupon_schedule": [
+            "04-22",
+            "10-22"
+        ],
+        "next_coupon_date": "2024-10-11",
+        "amount": "7750.0"
+    },
+    {
+        "description": "1% Treasury Gilt 2032",
+        "isin": "GB00BM8Z2T38",
+        "coupon": 1.0,
+        "maturity_date": "2032-01-31",
+        "issue_date": "2021-12-02",
+        "coupon_schedule": [
+            "01-31",
+            "07-31"
+        ],
+        "next_coupon_date": "2024-07-22",
+        "amount": "35957.371"
+    },
+    {
+        "description": "4¼% Treasury Stock 2032",
+        "isin": "GB0004893086",
+        "coupon": 4.25,
+        "maturity_date": "2032-06-07",
+        "issue_date": "2000-05-25",
+        "coupon_schedule": [
+            "06-07",
+            "12-07"
+        ],
+        "next_coupon_date": "2024-11-28",
+        "amount": "40331.14949908"
+    },
+    {
+        "description": "3¼% Treasury Gilt 2033",
+        "isin": "GB00BMV7TC88",
+        "coupon": 3.25,
+        "maturity_date": "2033-01-31",
+        "issue_date": "2023-01-11",
+        "coupon_schedule": [
+            "01-31",
+            "07-31"
+        ],
+        "next_coupon_date": "2024-07-22",
+        "amount": "33392.119999999995"
+    },
+    {
+        "description": "0 7/8% Green Gilt 2033",
+        "isin": "GB00BM8Z2S21",
+        "coupon": 0.875,
+        "maturity_date": "2033-07-31",
+        "issue_date": "2021-09-22",
+        "coupon_schedule": [
+            "01-31",
+            "07-31"
+        ],
+        "next_coupon_date": "2024-07-22",
+        "amount": "30492.0"
+    },
+    {
+        "description": "4 5/8% Treasury Gilt 2034",
+        "isin": "GB00BPJJKN53",
+        "coupon": 4.625,
+        "maturity_date": "2034-01-31",
+        "issue_date": "2023-10-12",
+        "coupon_schedule": [
+            "01-31",
+            "07-31"
+        ],
+        "next_coupon_date": "2024-07-22",
+        "amount": "31767.328999999998"
+    },
+    {
+        "description": "4¼% Treasury Gilt 2034",
+        "isin": "GB00BQC82C90",
+        "coupon": 4.25,
+        "maturity_date": "2034-07-31",
+        "issue_date": "2024-06-12",
+        "coupon_schedule": [
+            "01-31",
+            "07-31"
+        ],
+        "next_coupon_date": "2025-01-22",
+        "amount": "11000.0"
+    },
+    {
+        "description": "4½% Treasury Gilt 2034",
+        "isin": "GB00B52WS153",
+        "coupon": 4.5,
+        "maturity_date": "2034-09-07",
+        "issue_date": "2009-06-17",
+        "coupon_schedule": [
+            "03-07",
+            "09-07"
+        ],
+        "next_coupon_date": "2024-08-29",
+        "amount": "36261.283"
+    },
+    {
+        "description": "0 5/8% Treasury Gilt 2035",
+        "isin": "GB00BMGR2916",
+        "coupon": 0.625,
+        "maturity_date": "2035-07-31",
+        "issue_date": "2020-09-09",
+        "coupon_schedule": [
+            "01-31",
+            "07-31"
+        ],
+        "next_coupon_date": "2024-07-22",
+        "amount": "34816.85"
+    },
+    {
+        "description": "4¼% Treasury Stock 2036",
+        "isin": "GB0032452392",
+        "coupon": 4.25,
+        "maturity_date": "2036-03-07",
+        "issue_date": "2003-02-27",
+        "coupon_schedule": [
+            "03-07",
+            "09-07"
+        ],
+        "next_coupon_date": "2024-08-29",
+        "amount": "31681.932999999997"
+    },
+    {
+        "description": "1¾% Treasury Gilt 2037",
+        "isin": "GB00BZB26Y51",
+        "coupon": 1.75,
+        "maturity_date": "2037-09-07",
+        "issue_date": "2016-11-09",
+        "coupon_schedule": [
+            "03-07",
+            "09-07"
+        ],
+        "next_coupon_date": "2024-08-29",
+        "amount": "31968.31"
+    },
+    {
+        "description": "3¾% Treasury Gilt 2038",
+        "isin": "GB00BQC4R999",
+        "coupon": 3.75,
+        "maturity_date": "2038-01-29",
+        "issue_date": "2022-11-09",
+        "coupon_schedule": [
+            "01-29",
+            "07-29"
+        ],
+        "next_coupon_date": "2024-07-18",
+        "amount": "22206.559000000005"
+    },
+    {
+        "description": "4¾% Treasury Stock 2038",
+        "isin": "GB00B00NY175",
+        "coupon": 4.75,
+        "maturity_date": "2038-12-07",
+        "issue_date": "2004-04-23",
+        "coupon_schedule": [
+            "06-07",
+            "12-07"
+        ],
+        "next_coupon_date": "2024-11-28",
+        "amount": "26826.903000000002"
+    },
+    {
+        "description": "1 1/8% Treasury Gilt 2039",
+        "isin": "GB00BLPK7334",
+        "coupon": 1.125,
+        "maturity_date": "2039-01-31",
+        "issue_date": "2021-07-14",
+        "coupon_schedule": [
+            "01-31",
+            "07-31"
+        ],
+        "next_coupon_date": "2024-07-22",
+        "amount": "24378.623"
+    },
+    {
+        "description": "4¼% Treasury Gilt 2039",
+        "isin": "GB00B3KJDS62",
+        "coupon": 4.25,
+        "maturity_date": "2039-09-07",
+        "issue_date": "2009-03-05",
+        "coupon_schedule": [
+            "03-07",
+            "09-07"
+        ],
+        "next_coupon_date": "2024-08-29",
+        "amount": "24234.827"
+    },
+    {
+        "description": "4¼% Treasury Gilt 2040",
+        "isin": "GB00B6460505",
+        "coupon": 4.25,
+        "maturity_date": "2040-12-07",
+        "issue_date": "2010-06-30",
+        "coupon_schedule": [
+            "06-07",
+            "12-07"
+        ],
+        "next_coupon_date": "2024-11-28",
+        "amount": "26449.099000000002"
+    },
+    {
+        "description": "1¼ % Treasury Gilt 2041",
+        "isin": "GB00BJQWYH73",
+        "coupon": 1.25,
+        "maturity_date": "2041-10-22",
+        "issue_date": "2020-01-22",
+        "coupon_schedule": [
+            "04-22",
+            "10-22"
+        ],
+        "next_coupon_date": "2024-10-11",
+        "amount": "33817.167"
+    },
+    {
+        "description": "4½% Treasury Gilt 2042",
+        "isin": "GB00B1VWPJ53",
+        "coupon": 4.5,
+        "maturity_date": "2042-12-07",
+        "issue_date": "2007-06-06",
+        "coupon_schedule": [
+            "06-07",
+            "12-07"
+        ],
+        "next_coupon_date": "2024-11-28",
+        "amount": "28354.282000000003"
+    },
+    {
+        "description": "4¾% Treasury Gilt 2043",
+        "isin": "GB00BPJJKP77",
+        "coupon": 4.75,
+        "maturity_date": "2043-10-22",
+        "issue_date": "2023-11-16",
+        "coupon_schedule": [
+            "04-22",
+            "10-22"
+        ],
+        "next_coupon_date": "2024-10-11",
+        "amount": "17908.622"
+    },
+    {
+        "description": "3¼% Treasury Gilt 2044",
+        "isin": "GB00B84Z9V04",
+        "coupon": 3.25,
+        "maturity_date": "2044-01-22",
+        "issue_date": "2012-10-24",
+        "coupon_schedule": [
+            "01-22",
+            "07-22"
+        ],
+        "next_coupon_date": "2024-07-11",
+        "amount": "29108.571"
+    },
+    {
+        "description": "3½% Treasury Gilt 2045",
+        "isin": "GB00BN65R313",
+        "coupon": 3.5,
+        "maturity_date": "2045-01-22",
+        "issue_date": "2014-06-25",
+        "coupon_schedule": [
+            "01-22",
+            "07-22"
+        ],
+        "next_coupon_date": "2024-07-11",
+        "amount": "29404.409000000003"
+    },
+    {
+        "description": "0 7/8% Treasury Gilt 2046",
+        "isin": "GB00BNNGP775",
+        "coupon": 0.875,
+        "maturity_date": "2046-01-31",
+        "issue_date": "2021-01-20",
+        "coupon_schedule": [
+            "01-31",
+            "07-31"
+        ],
+        "next_coupon_date": "2024-07-22",
+        "amount": "22982.624"
+    },
+    {
+        "description": "4¼% Treasury Gilt 2046",
+        "isin": "GB00B128DP45",
+        "coupon": 4.25,
+        "maturity_date": "2046-12-07",
+        "issue_date": "2006-05-12",
+        "coupon_schedule": [
+            "06-07",
+            "12-07"
+        ],
+        "next_coupon_date": "2024-11-28",
+        "amount": "25124.238999999998"
+    },
+    {
+        "description": "1½% Treasury Gilt 2047",
+        "isin": "GB00BDCHBW80",
+        "coupon": 1.5,
+        "maturity_date": "2047-07-22",
+        "issue_date": "2016-09-21",
+        "coupon_schedule": [
+            "01-22",
+            "07-22"
+        ],
+        "next_coupon_date": "2024-07-11",
+        "amount": "25721.428000000004"
+    },
+    {
+        "description": "1¾% Treasury Gilt 2049",
+        "isin": "GB00BFWFPP71",
+        "coupon": 1.75,
+        "maturity_date": "2049-01-22",
+        "issue_date": "2018-09-12",
+        "coupon_schedule": [
+            "01-22",
+            "07-22"
+        ],
+        "next_coupon_date": "2024-07-11",
+        "amount": "30223.766999999996"
+    },
+    {
+        "description": "4¼% Treasury Gilt 2049",
+        "isin": "GB00B39R3707",
+        "coupon": 4.25,
+        "maturity_date": "2049-12-07",
+        "issue_date": "2008-09-03",
+        "coupon_schedule": [
+            "06-07",
+            "12-07"
+        ],
+        "next_coupon_date": "2024-11-28",
+        "amount": "21047.402000000002"
+    },
+    {
+        "description": "0 5/8% Treasury Gilt 2050",
+        "isin": "GB00BMBL1F74",
+        "coupon": 0.625,
+        "maturity_date": "2050-10-22",
+        "issue_date": "2020-06-10",
+        "coupon_schedule": [
+            "04-22",
+            "10-22"
+        ],
+        "next_coupon_date": "2024-10-11",
+        "amount": "31915.870999999996"
+    },
+    {
+        "description": "1¼% Treasury Gilt 2051",
+        "isin": "GB00BLH38158",
+        "coupon": 1.25,
+        "maturity_date": "2051-07-31",
+        "issue_date": "2021-04-28",
+        "coupon_schedule": [
+            "01-31",
+            "07-31"
+        ],
+        "next_coupon_date": "2024-07-22",
+        "amount": "28861.747000000003"
+    },
+    {
+        "description": "3¾% Treasury Gilt 2052",
+        "isin": "GB00B6RNH572",
+        "coupon": 3.75,
+        "maturity_date": "2052-07-22",
+        "issue_date": "2011-09-28",
+        "coupon_schedule": [
+            "01-22",
+            "07-22"
+        ],
+        "next_coupon_date": "2024-07-11",
+        "amount": "25114.100999970004"
+    },
+    {
+        "description": "1½% Green Gilt 2053",
+        "isin": "GB00BM8Z2V59",
+        "coupon": 1.5,
+        "maturity_date": "2053-07-31",
+        "issue_date": "2021-10-22",
+        "coupon_schedule": [
+            "01-31",
+            "07-31"
+        ],
+        "next_coupon_date": "2024-07-22",
+        "amount": "22104.0"
+    },
+    {
+        "description": "3¾% Treasury Gilt 2053",
+        "isin": "GB00BPCJD997",
+        "coupon": 3.75,
+        "maturity_date": "2053-10-22",
+        "issue_date": "2023-01-25",
+        "coupon_schedule": [
+            "04-22",
+            "10-22"
+        ],
+        "next_coupon_date": "2024-10-11",
+        "amount": "27639.996999999996"
+    },
+    {
+        "description": "4 3/8% Treasury Gilt 2054",
+        "isin": "GB00BPSNBB36",
+        "coupon": 4.375,
+        "maturity_date": "2054-07-31",
+        "issue_date": "2024-01-24",
+        "coupon_schedule": [
+            "01-31",
+            "07-31"
+        ],
+        "next_coupon_date": "2024-07-22",
+        "amount": "12750.0"
+    },
+    {
+        "description": "1 5/8% Treasury Gilt 2054",
+        "isin": "GB00BJLR0J16",
+        "coupon": 1.625,
+        "maturity_date": "2054-10-22",
+        "issue_date": "2019-05-15",
+        "coupon_schedule": [
+            "04-22",
+            "10-22"
+        ],
+        "next_coupon_date": "2024-10-11",
+        "amount": "24581.057999999997"
+    },
+    {
+        "description": "4¼% Treasury Gilt 2055",
+        "isin": "GB00B06YGN05",
+        "coupon": 4.25,
+        "maturity_date": "2055-12-07",
+        "issue_date": "2005-05-27",
+        "coupon_schedule": [
+            "06-07",
+            "12-07"
+        ],
+        "next_coupon_date": "2024-11-28",
+        "amount": "27671.177000000003"
+    },
+    {
+        "description": "1¾% Treasury Gilt 2057",
+        "isin": "GB00BD0XH204",
+        "coupon": 1.75,
+        "maturity_date": "2057-07-22",
+        "issue_date": "2017-01-25",
+        "coupon_schedule": [
+            "01-22",
+            "07-22"
+        ],
+        "next_coupon_date": "2024-07-11",
+        "amount": "30741.493"
+    },
+    {
+        "description": "4% Treasury Gilt 2060",
+        "isin": "GB00B54QLM75",
+        "coupon": 4.0,
+        "maturity_date": "2060-01-22",
+        "issue_date": "2009-10-22",
+        "coupon_schedule": [
+            "01-22",
+            "07-22"
+        ],
+        "next_coupon_date": "2024-07-11",
+        "amount": "25132.409"
+    },
+    {
+        "description": "0½% Treasury Gilt 2061",
+        "isin": "GB00BMBL1D50",
+        "coupon": 0.5,
+        "maturity_date": "2061-10-22",
+        "issue_date": "2020-05-20",
+        "coupon_schedule": [
+            "04-22",
+            "10-22"
+        ],
+        "next_coupon_date": "2024-10-11",
+        "amount": "25886.249"
+    },
+    {
+        "description": "4% Treasury Gilt 2063",
+        "isin": "GB00BMF9LF76",
+        "coupon": 4.0,
+        "maturity_date": "2063-10-22",
+        "issue_date": "2023-05-17",
+        "coupon_schedule": [
+            "04-22",
+            "10-22"
+        ],
+        "next_coupon_date": "2024-10-11",
+        "amount": "14638.499"
+    },
+    {
+        "description": "2½% Treasury Gilt 2065",
+        "isin": "GB00BYYMZX75",
+        "coupon": 2.5,
+        "maturity_date": "2065-07-22",
+        "issue_date": "2015-10-21",
+        "coupon_schedule": [
+            "01-22",
+            "07-22"
+        ],
+        "next_coupon_date": "2024-07-11",
+        "amount": "20574.884"
+    },
+    {
+        "description": "3½% Treasury Gilt 2068",
+        "isin": "GB00BBJNQY21",
+        "coupon": 3.5,
+        "maturity_date": "2068-07-22",
+        "issue_date": "2013-06-26",
+        "coupon_schedule": [
+            "01-22",
+            "07-22"
+        ],
+        "next_coupon_date": "2024-07-11",
+        "amount": "20743.447999999997"
+    },
+    {
+        "description": "1 5/8% Treasury Gilt 2071",
+        "isin": "GB00BFMCN652",
+        "coupon": 1.625,
+        "maturity_date": "2071-10-22",
+        "issue_date": "2018-05-16",
+        "coupon_schedule": [
+            "04-22",
+            "10-22"
+        ],
+        "next_coupon_date": "2024-10-11",
+        "amount": "24158.322999999997"
+    },
+    {
+        "description": "1 1/8% Treasury Gilt 2073",
+        "isin": "GB00BLBDX619",
+        "coupon": 1.125,
+        "maturity_date": "2073-10-22",
+        "issue_date": "2022-02-09",
+        "coupon_schedule": [
+            "04-22",
+            "10-22"
+        ],
+        "next_coupon_date": "2024-10-11",
+        "amount": "10857.0"
+    }
+]
