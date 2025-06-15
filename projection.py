@@ -19,7 +19,8 @@ logging.basicConfig(
 # Get the base directory (where projection.py is located)
 base_dir = os.path.dirname(os.path.abspath(__file__))
 data_path = os.path.join(base_dir, "Data", "data.json")
-output_path = os.path.join(base_dir, "Data", "projection.json")
+output_json_path = os.path.join(base_dir, "Data", "projection.json")
+output_excel_path = os.path.join(base_dir, "Data", "projection.xlsx")
 
 def project_bond_values(bond_data):
     """
@@ -37,7 +38,7 @@ def project_bond_values(bond_data):
         implied_yield = bond_data.get('yield')  # In percentage (e.g., 4.50596904754639)
         coupon_rate = bond_data.get('coupon_rate')  # Already in decimal (e.g., 0.0125 for 1.25%)
         frequency = bond_data.get('frequency')  # 2 for semiannual
-        proj_frequency = bond_data.get('proj_frequency')  # e.g., 'trimestrielle'
+        proj_frequency = bond_data.get('proj_frequency')  # e.g., 'mensuelle'
 
         logging.info(f"Projecting bond values with data: {bond_data}")
 
@@ -95,16 +96,12 @@ def project_bond_values(bond_data):
             logging.error(f"Invalid projection frequency: {proj_frequency}")
             raise ValueError(f"Invalid projection frequency: {proj_frequency}")
 
-        # Generate projection dates
+        # Generate projection dates (exclude maturity date)
         current_date = evolution_date_dt
         projection_dates = []
-        while current_date <= maturity_date_dt:
+        while current_date < maturity_date_dt:  # Stop before maturity date
             projection_dates.append(current_date)
             current_date += delta
-
-        # Ensure the maturity date is included if it's close to the last projection
-        if projection_dates[-1] < maturity_date_dt:
-            projection_dates.append(maturity_date_dt)
 
         # Store projections
         projections = []
@@ -112,33 +109,38 @@ def project_bond_values(bond_data):
         for proj_date in projection_dates:
             proj_date_ql = ql.Date(proj_date.day, proj_date.month, proj_date.year)
 
-            # Skip if projection date is on or after maturity
-            if proj_date_ql >= maturity_date_ql:
-                continue
-
             # Set the evaluation date
             ql.Settings.instance().evaluationDate = proj_date_ql
 
             # Calculate settlement date
             settlement_date = calendar.advance(proj_date_ql, 1, ql.Days)
 
+            # Ensure settlement date is before maturity
+            if settlement_date >= maturity_date_ql:
+                logging.warning(f"Skipping projection for {proj_date.strftime('%Y-%m-%d')} as settlement date is on or after maturity")
+                continue
+
             # Price the bond using the fixed implied yield
-            clean_price = bond.cleanPrice(
-                implied_yield_decimal, day_count, ql.Compounded, ql.Semiannual, settlement_date
-            )
+            try:
+                clean_price = bond.cleanPrice(
+                    implied_yield_decimal, day_count, ql.Compounded, ql.Semiannual, settlement_date
+                )
 
-            # Calculate modified duration
-            modified_duration = ql.BondFunctions.duration(
-                bond, implied_yield_decimal, day_count, ql.Compounded, ql.Semiannual,
-                ql.Duration.Modified, settlement_date
-            )
+                # Calculate modified duration
+                modified_duration = ql.BondFunctions.duration(
+                    bond, implied_yield_decimal, day_count, ql.Compounded, ql.Semiannual,
+                    ql.Duration.Modified, settlement_date
+                )
 
-            # Add to projections
-            projections.append({
-                "Projection Date": proj_date.strftime('%Y-%m-%d'),
-                "Clean Price Projected": round(clean_price, 6),
-                "Modified Duration Projected": round(modified_duration, 6)
-            })
+                # Add to projections
+                projections.append({
+                    "Projection Date": proj_date.strftime('%Y-%m-%d'),
+                    "Clean Price Projected": round(clean_price, 6),
+                    "Modified Duration Projected": round(modified_duration, 6)
+                })
+            except Exception as e:
+                logging.error(f"Failed to project for date {proj_date.strftime('%Y-%m-%d')}: {str(e)}")
+                continue
 
         return projections
 
@@ -157,16 +159,25 @@ def main():
         # Project bond values
         projections = project_bond_values(bond_data)
 
-        # Write projections to projection.json
-        with open(output_path, 'w') as f:
+        # Write projections to JSON
+        with open(output_json_path, 'w') as f:
             json.dump(projections, f, indent=4)
-        logging.info(f"Successfully wrote projections to {output_path}")
+        logging.info(f"Successfully wrote projections to {output_json_path}")
+
+        # Write projections to Excel
+        if projections:
+            df = pd.DataFrame(projections)
+            df.to_excel(output_excel_path, index=False, sheet_name="Bond Projections")
+            logging.info(f"Successfully wrote projections to {output_excel_path}")
+        else:
+            logging.warning("No projections to write to Excel")
 
     except Exception as e:
         logging.error(f"Main execution failed: {str(e)}")
-        # Write an empty list to projection.json to indicate failure
-        with open(output_path, 'w') as f:
+        # Write an empty list to JSON and Excel to indicate failure
+        with open(output_json_path, 'w') as f:
             json.dump([], f)
+        pd.DataFrame([]).to_excel(output_excel_path, index=False, sheet_name="Bond Projections")
         sys.exit(1)
 
 if __name__ == "__main__":

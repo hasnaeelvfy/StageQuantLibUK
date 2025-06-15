@@ -20,3 +20,19 @@
 2025-06-04 11:16:30 AM - ExportBondsToJson.py completed in 10.57 seconds
 2025-06-04 11:16:33 AM - Starting calculate_bonds.py
 2025-06-04 11:16:39 AM - calculate_bonds.py completed in 6.12 seconds
+2025-06-10 4:04:32 PM - Starting ExportBondsToJson.py
+2025-06-10 4:04:41 PM - ExportBondsToJson.py failed with exit code: 1
+2025-06-10 4:05:17 PM - Starting ExportBondsToJson.py
+2025-06-10 4:05:22 PM - ExportBondsToJson.py failed with exit code: 1
+2025-06-10 4:08:40 PM - Starting ExportBondsToJson.py
+2025-06-10 4:08:51 PM - ExportBondsToJson.py completed in 11.13 seconds
+2025-06-10 4:08:54 PM - Starting calculate_bonds.py
+2025-06-10 4:09:01 PM - calculate_bonds.py completed in 6.59 seconds
+2025-06-10 4:20:08 PM - Starting ExportBondsToJson.py
+2025-06-10 4:20:21 PM - ExportBondsToJson.py completed in 13.17 seconds
+2025-06-10 4:20:24 PM - Starting calculate_bonds.py
+2025-06-10 4:20:30 PM - calculate_bonds.py completed in 6.55 seconds
+2025-06-11 3:12:37 PM - Starting ExportBondsToJson.py
+2025-06-11 3:12:44 PM - ExportBondsToJson.py completed in 7.27 seconds
+2025-06-11 3:12:46 PM - Starting calculate_bonds.py
+2025-06-11 3:12:50 PM - calculate_bonds.py completed in 4.06 seconds

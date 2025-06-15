@@ -4,12 +4,22 @@ import xlwings as xw
 import re
 import json
 from pathlib import Path
+import sys
+import os
 
 def gilts():
-    input_file = Path('obligation.xlsm')
-    output_file = Path('temp/gilts.json')
+    # Définir les chemins de manière robuste
+    current_dir = Path(__file__).parent
+    input_file = current_dir / 'obligation.xlsm'
+    output_file = current_dir / 'temp' / 'gilts.json'
     output_file.parent.mkdir(parents=True, exist_ok=True)
 
+    # Vérifier si le fichier Excel existe
+    if not input_file.exists():
+        print(f"Erreur : Le fichier {input_file} n'a pas été trouvé.")
+        sys.exit(1)
+
+    # Définir les patterns et mappings
     isin_pattern = re.compile(r'^[A-Z0-9]+$')
     coupon_pattern = re.compile(r'([\d\s\/¾½⅝⅞¼⅓⅔]+)%')
 
@@ -25,6 +35,8 @@ def gilts():
     }
 
     def extract_coupon(description):
+        if not description or not isinstance(description, str):
+            return None
         match = coupon_pattern.search(description)
         if match:
             text = match.group(1).strip()
@@ -34,13 +46,18 @@ def gilts():
             try:
                 return float(eval(text))
             except Exception as e:
-                print(f"Error parsing coupon '{description}' → {text}: {e}")
+                print(f"Erreur lors du parsing du coupon '{description}' → {text}: {e}")
+                return None
         return None
 
     def format_date(val):
-        return val.split(' ')[0] if isinstance(val, str) and ' ' in val else val
+        if not val or not isinstance(val, str):
+            return None
+        return val.split(' ')[0] if ' ' in val else val
 
     def parse_coupon_schedule(schedule_str):
+        if not schedule_str or not isinstance(schedule_str, str):
+            return [schedule_str]
         match = re.match(r'(\d{1,2})\s+([A-Za-z]{3})/([A-Za-z]{3})', schedule_str)
         if match:
             day = match.group(1).zfill(2)
@@ -88,6 +105,9 @@ def gilts():
                         'amount': cells[6] or None,
                     })
         wb.close()
+    except Exception as e:
+        print(f"Erreur lors de l'exécution du script : {e}")
+        sys.exit(1)
     finally:
         app.quit()
 
@@ -96,4 +116,5 @@ def gilts():
 
     print(f"Exported {len(gilts_data)} gilts to {output_file}")
 
-gilts()
+if __name__ == "__main__":
+    gilts()
