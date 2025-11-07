@@ -114,6 +114,9 @@ A set of fixed-rate bonds priced with QuantLib.
 Comparison of QuantLib prices with actual market data from Tradeweb.
 
 A comprehensive report generated in Excel that includes key metrics.
+Contributors:
+H4MZ4-M44D4R
+hasnaeelvfy
 
 Screenshots:
 
